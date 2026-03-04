@@ -1,0 +1,9 @@
+{
+  "name": "Vision Companion",
+  "short_name": "VisionNav",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#00e5a8",
+  "icons": []
+}

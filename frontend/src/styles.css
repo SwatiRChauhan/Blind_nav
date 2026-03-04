@@ -1,0 +1,77 @@
+:root {
+  font-family: Inter, system-ui, Arial, sans-serif;
+}
+body {
+  margin: 0;
+}
+.theme-dark {
+  background: #020612;
+  color: #f3f4f6;
+}
+.theme-light {
+  background: #f4f4f5;
+  color: #111827;
+}
+.app {
+  min-height: 100vh;
+  padding: 1rem;
+  max-width: 520px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  margin: .4rem 0;
+  color: #00e5a8;
+}
+.sub { text-align:center; opacity:.9; }
+.statusRing {
+  border: 3px solid #00e5a8;
+  border-radius: 50%;
+  height: 260px;
+  width: 260px;
+  margin: 1rem auto;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 0 28px #00e5a844;
+}
+.controls, .toggles, .stats {
+  display: grid;
+  gap: .6rem;
+  margin-bottom: .9rem;
+}
+button, select {
+  font-size: 1rem;
+  padding: .7rem;
+  border-radius: .6rem;
+  border: 1px solid #334155;
+}
+button {
+  background: #0f172a;
+  color: #fff;
+}
+.video {
+  width: 100%;
+  border-radius: .8rem;
+  border: 2px solid #00e5a8;
+  min-height: 180px;
+  background: #000;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  max-height: 200px;
+  overflow: auto;
+}
+li {
+  border-bottom: 1px solid #334155;
+  padding: .45rem 0;
+}
+.stats div {
+  display:flex;
+  justify-content: space-between;
+  border: 1px solid #334155;
+  padding: .5rem .7rem;
+  border-radius: .5rem;
+}
